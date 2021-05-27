@@ -1,66 +1,223 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Assignment</title>
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=goole.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.wrapper {
+    position: relative;
+    width: 1575px;
+    height: 1379px;
+    margin: auto;
+
+}
+
+.load-more-img {
+    position: absolute;
+    width: 190px;
+    height: 35px;
+    right: 260px;
+    top: 28px;
+}
+
+.load-more-img > div {
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.text-container {
+    overflow: auto;
    
-    <div class="wrapper">
-        <div class="text-container">
-            <p class="icon-1">About</p>
-            <p class="icon-2">Team</p>
-            <p class="icon-3">Pricing</p>
-            <p class="icon-4">Issues</p>
-            <p class="icon-5">Sign In</p>
-        </div>
-        <img src="./design assets/Group 20.png" alt="load-more" class="load-more-img">
+    /* word-spacing: 15px; */
+}
+
+.icon-1 {
+    position: absolute;
+    left: 28%;
+    color: whitesmoke;
+}
+
+.icon-2 {
+    position: absolute;
+    left: 34%;
+    color: whitesmoke;
+}
+
+.icon-3 {
+    position: absolute;
+    left: 41%;
+    color: whitesmoke;
+}
+
+.icon-4 {
+    position: absolute;
+    left: 48%;
+    color: whitesmoke;
+}
+
+.icon-5 {
+    position: absolute;
+    left: 55%;
+    color: whitesmoke;
+}
+
+.text-container p{
+    float: left;
+    width: 8%;
+    text-align: center;
+    padding: 5px 40px;
+    font-size: 25px;
+}
+
+/* .text-container h6:hover{
+    background-color:violet;
+} */
+
+.title-2 {
+position: absolute;
+width: 458px;
+height: 135px;
+left: 95px;
+top: 100px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 67px;
+}
+
+.title-3 {
+    position: absolute;
+    width: 458px;
+    height: 135px;
+    left: 95px;
+    top: 160px;
     
-        <div class="text-container-2">
-            <h1 class="title-2">Digital</h1>
-            <h1 class="title-3"> marketing</h1>
-            <p class="text">Targeted and interactive marketing og goods and serivces</p>
-            <p class="text-2">Sign up and get a discount</p>
-        
-            <div class="sign-up-btn">
-                <img src="./design assets/Group 21.png" alt="sign-up">
-            </div>
     
-        </div>
-        
-        <div class="cloud-1">
-            <img src="./design assets/Group 16.png">
-        </div>
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 67px;
+    }
 
-        <div class="pic-1">
-            <img src="./design assets/Group 18.png">
-        </div>
-        
-        <div class="part-2">
-            <img src="./design assets/Group 1.png">
-            <p class="text-part-2">Design and strategy</p>
-            <p class="text-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam laborum velit repudiandae architecto facilis, odit doloribus, natus soluta omnis debitis repellat</p>
-            <p class="text-part-3">Digital Marketing Channels</p>
-            <p class="text-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam laborum velit repudiandae architecto facilis, odit doloribus, natus soluta omnis debitis repellat</p>
-        </div>
+.text {
+position: absolute;
+width: 394px;
+height: 96px;
+left: 95px;
+top: 270px;
 
-        <div class="river">
-            <img src="./design assets/Group 17.png">
-        </div>
+font-weight: bold;
+font-style: normal;
+color: rgb(141, 72, 141);
+font-size: 25px;
+line-height: 32px;
+}
 
-        <div class="pic-2">
-            <img src="./design assets/Group 19.png">
-        </div>
-
-    </div>
-
+.text-2 {
+ position: absolute;
+width: 394px;
+height: 96px;
+left: 96px;
+top: 350px;
 
 
-    <!-- Script -->
-    <script src="script.js"></script>
-</body>
-</html>
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 32px;
+}
+
+.sign-up-btn {
+    position: absolute;
+    width: 138.44px;
+    height: 46.28px;
+    left: 97px;
+    top: 450px;
+}
+
+.sign-up-btn img {
+    width: 138.44px;
+    height: 46.28px;
+}
+
+.cloud-1 img{
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    right: 230px;
+    top: 1px;
+    z-index: -1;
+}
+
+.pic-1 img{
+    position: absolute;
+    right: 230px;
+    top: 61px;
+}
+
+.part-2 img{
+    position: absolute;
+    top: 700px;
+    width: 700px;
+}
+
+.text-part-2 {
+    position: absolute;
+    right: 450px;
+    top: 800px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(57, 2, 255);
+    font-size: 43px;
+}
+
+.text-part-3 {
+    position: absolute;
+    right: 300px;
+    top: 970px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(57, 2, 255);
+    font-size: 43px;
+}
+
+.text-3 {
+    position: absolute;
+    left: 760px;
+    top: 900px;
+    width: 35%;
+}
+
+.text-4 {
+    position: absolute;
+    left: 760px;
+    top: 1070px;
+    width: 35%;
+}
+
+.river img{
+    position: absolute;
+    width: 1350px;
+    height: 500px;
+    right: 230px;
+    top: 1300px;
+    z-index: -1;
+}
+
+.pic-2 img {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    right: 1000px;
+    top: 1350px;
+}

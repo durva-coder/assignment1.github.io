@@ -1,180 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Light Dark Mode</title>
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=goole.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.google.com/s2/favicons?domain=goole.com"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- dark mode switch -->
     <div class="theme-switch-wrapper">
-        <span id="toggle-icon">
-            <span class="toggle-text">Light Mode</span>
-            <i class="fas fa-sun"></i>
-        </span>
-        <label class="theme-switch">
-            <input type="checkbox">
-            <div class="slider round"></div>
-        </label>
+      <span id="toggle-icon">
+        <span class="toggle-text">Light Mode</span>
+        <i class="fas fa-sun"></i>
+      </span>
+      <label class="theme-switch">
+        <input type="checkbox" />
+        <div class="slider round"></div>
+      </label>
     </div>
 
     <!-- navigation -->
     <nav id="nav">
-        <a href="#home">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#projects">PROJECTS</a>
-        <a href="#contact">CONTACT</a>
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
     </nav>
     <!-- home section -->
     <section id="home">
-        <div class="title-group">
-            <h1>Durva Coder</h1>
-            <h2>Welcome to the Website!</h2>
-        </div>
+      <div class="title-group">
+        <h1>Durva Coder</h1>
+        <h2>Welcome to the Website!</h2>
+      </div>
     </section>
     <!-- about section -->
-   <section id="about">
-       <h1>Undraw Illustrations</h1>
-       <div class="about-container">
-           <div class="image-container">
-               <h2>Web Innovation</h2>
-               <img src="img/undraw_Work_chat_re_qes4.svg" alt="Work Chat" id="image1">
-           </div>
-           <div class="image-container">
-            <h2>Web Innovation</h2>
-            <img src="img/undraw_teamwork_hpdk.svg" alt="TeamWork" id="image2">
+    <section id="about">
+      <h1>Undraw Illustrations</h1>
+      <div class="about-container">
+        <div class="image-container">
+          <h2>Web Innovation</h2>
+          <img
+            src="img/undraw_Work_chat_re_qes4.svg"
+            alt="Work Chat"
+            id="image1"
+          />
         </div>
         <div class="image-container">
-            <h2>Web Innovation</h2>
-            <img src="img/undraw_Social_networking_re_i1ex.svg" alt="Social Networking" id="image3">
+          <h2>Web Innovation</h2>
+          <img src="img/undraw_teamwork_hpdk.svg" alt="TeamWork" id="image2" />
         </div>
-       </div>
-   </section>
-   <!-- projects section -->
-   <section id="projects">
-       <h1>Projects</h1>
-       <div class="buttons">
-        <button class="primary" onclick="QuoteTab()">Quote Generator</button>
-           <!-- <button class="primary" onclick="window.location.href='https://durvacoder.xyz/Quote_Generator/';">Quote Generator</button> -->
-           <button class="secondary" onclick="InfintyTab()">Infinity Scroll</button>
-           <button class="outline"  onclick="PictureTab()">Picture In Picture</button>
-           <button class="primary" onclick="DarkTab()">Light Dark Mode</button>
-           <button class="secondary outline" onclick="NavigationTab()">Animated Navigation</button>
-           <button class="outline" onclick="MusicTab()">Music Player</button>
+        <div class="image-container">
+          <h2>Web Innovation</h2>
+          <img
+            src="img/undraw_Social_networking_re_i1ex.svg"
+            alt="Social Networking"
+            id="image3"
+          />
         </div>
-        <div class="buttons">
-            <button class="primary" onclick="CountdownTab()">Custom Countdown</button>
-            <button class="secondary" onclick="VideoTab()">Video Player</button>
-            <button class="outline" onclick="FormTab()">Form Validator</button>
-            <button class="primary" onclick="SpockTab()">Spock Rock Game</button>
-            <button class="secondary" onclick="NasaTab()">Nasa APOD</button>
-            <button class="outline" onclick="CalcTab()">Calculator</button>
-        </div>
-        <div class="buttons">
-            <button class="primary" onclick="SplashTab()">Splash Page</button>
-            <button class="secondary" onclick="PaintTab()">Paint Clone</button>
-            <button class="outline" onclick="PongTab()">Pong Game</button>
-            <button class="primary" onclick="MathTab()">Math Sprint Game</button>
-            <button class="secondary" onclick="AnimatedTab()">Animated Template</button>
-            <button class="outline" onclick="BookTab()">Book Keeper</button>
-        </div>
-        <div class="text-box" id="text-box">
-            <p>These all the projects are make using HTML, CSS, JAVASCRIPT in 2021. </p>
-        </div>
-   </section>
-   <!-- contact section -->
-   <section id="contact">
-        <div class="social-icons"> 
-            <i class="fab fa-github" ></i>
-            <i class="fab fa-codepen"></i>
-            <i class="fab fa-linkedin-in"></i>
-            <i class="fab fa-medium"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-youtube"></i>
-        </div>
-   </section>
+      </div>
+    </section>
+    <!-- projects section -->
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="buttons">
+        <!-- <button class="primary" onclick="QuoteTab()">Quote Generator</button> -->
+        <button class="primary" onclick="window.location.href='./Quote Generator/index.html'">Quote Generator</button>
+        <button class="secondary" onclick="window.location.href='./infinite-scroll/index.html'">
+          Infinity Scroll
+        </button>
+        <button class="outline" onclick="window.location.href='./picture-in-picture/index.html'">
+          Picture In Picture
+        </button>
+        <button class="primary" onclick="window.location.href='./light-dark mode - Copy/index.html'">Light Dark Mode</button>
+        <button class="secondary outline" onclick="window.location.href='./animated-navigation/index.html'">
+          Animated Navigation
+        </button>
+        <!-- <button class="outline" onclick="window.location.href='./music-player/index.html'">Music Player</button> -->
+      </div>
+      <div class="buttons">
+        <button class="primary" onclick="window.location.href='./custom-countdown/index.html'">
+          Custom Countdown
+        </button>
+        <button class="secondary" onclick="window.location.href='./video-player/index.html'">Video Player</button>
+        <button class="outline" onclick="window.location.href='./Form-validation/index.html'">Form Validator</button>
+        <button class="primary" onclick="window.location.href='./spock-rock-game/index.html'">Spock Rock Game</button>
+        <button class="secondary" onclick="window.location.href='./nasa-api-pictures/index.html'">Nasa APOD</button>
+        <button class="outline" onclick="window.location.href='./Calculator/index.html'">Calculator</button>
+      </div>
+      <div class="buttons">
+        <button class="primary" onclick="window.location.href='./splash page/index.html'">Splash Page</button>
+        <button class="secondary" onclick="window.location.href='./paint-clone/index.html'">Paint Clone</button>
+        <button class="outline" onclick="window.location.href='./pong game/index.html'">Pong Game</button>
+        <button class="primary" onclick="window.location.href='./math-sprint-game/index.html'">Math Sprint Game</button>
+        <button class="secondary" onclick="window.location.href='./animated-template/index.html'">
+          Animated Template
+        </button>
+        <button class="outline" onclick="window.location.href='./bookmark-app/index.html'">Book Keeper</button>
+      </div>
+      <div class="text-box" id="text-box">
+        <p>
+          These all the projects are make using HTML, CSS, JAVASCRIPT in 2021.
+        </p>
+      </div>
+    </section>
+    <!-- contact section -->
+    <section id="contact">
+      <div class="social-icons">
+        <i class="fab fa-github"></i> <a href="www.github.com/durva-coder"></a>
+        <i class="fab fa-codepen"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-medium"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+    </section>
     <!-- Script -->
     <script src="script.js"></script>
-    <script> 
-        function QuoteTab() { 
-            window.open( 
-              "https://durvacoder.xyz/Quote_Generator/", "_blank"); 
-        } 
-        function InfintyTab() {
-            window.open( 
-              "http://durvacoder.xyz/infinte_scroll/", "_blank"); 
-        }
-        function PictureTab() {
-            window.open( 
-              "http://durvacoder.xyz/picture_in_picture/", "_blank"); 
-        }
-        function JokeTab() {
-            window.open( 
-              "https://durvacoder.xyz/joke_teller/", "_blank"); 
-        }
-        function DarkTab() {
-            window.open( 
-              "https://www.durva-coder.github.io/calculator/index.html", "_blank"); 
-        }
-        function NavigationTab() {
-            window.open( 
-              "http://durvacoder.xyz/animated_navigation/", "_blank"); 
-        }
-        function MusicTab() {
-            window.open( 
-              "http://durvacoder.xyz/music_player/", "_blank"); 
-        }
-        function CountdownTab(){
-            window.open( 
-              "http://durvacoder.xyz/count_down/", "_blank");
-        }
-        function VideoTab() {
-            window.open( 
-              "http://durvacoder.xyz/video_player/", "_blank");
-        }
-        function FormTab() {
-            window.open( 
-              "https://durvacoder.xyz/form_validator/", "_blank");
-        }
-        function SpockTab() {
-            window.open( 
-              "https://durvacoder.xyz/GAME/", "_blank");
-        }
-        function NasaTab() {
-            window.open( 
-              "https://durvacoder.xyz/nasa_folder/", "_blank");
-        }
-        function CalcTab(){
-            window.open( 
-              "https://durvacoder.xyz/Calculator/", "_blank");
-        }
-        function SplashTab() {
-            window.open( 
-              "https://durvacoder.xyz/splash_page/", "_blank");
-        }
-        function PaintTab() {
-            window.open( 
-              "https://durvacoder.xyz/paint_clone/", "_blank");
-        }
-        function PongTab() {
-            window.open( 
-              "https://durvacoder.xyz/pong_game/", "_blank");
-        }
-        function MathTab() {
-            window.open( 
-              "http://durvacoder.xyz/math_sprint_game/", "_blank");
-        }
-        function AnimatedTab() {
-            window.open( 
-              "http://durvacoder.xyz/animated_template/", "_blank");
-        }
-        function BookTab() {
-            window.open( 
-              "http://durvacoder.xyz/book_keeper/", "_blank");
-        }
-    </script> 
-</body>
+    <script>
+      function QuoteTab() {
+        window.open("", "_blank");
+      }
+      function InfintyTab() {
+        window.open("http://durvacoder.xyz/infinte_scroll/", "_blank");
+      }
+      function PictureTab() {
+        window.open("http://durvacoder.xyz/picture_in_picture/", "_blank");
+      }
+      function JokeTab() {
+        window.open("https://durvacoder.xyz/joke_teller/", "_blank");
+      }
+      function DarkTab() {
+        window.open(
+          "https://www.durva-coder.github.io/calculator/index.html",
+          "_blank"
+        );
+      }
+      function NavigationTab() {
+        window.open("http://durvacoder.xyz/animated_navigation/", "_blank");
+      }
+      function MusicTab() {
+        window.open("http://durvacoder.xyz/music_player/", "_blank");
+      }
+      function CountdownTab() {
+        window.open("http://durvacoder.xyz/count_down/", "_blank");
+      }
+      function VideoTab() {
+        window.open("http://durvacoder.xyz/video_player/", "_blank");
+      }
+      function FormTab() {
+        window.open("https://durvacoder.xyz/form_validator/", "_blank");
+      }
+      function SpockTab() {
+        window.open("https://durvacoder.xyz/GAME/", "_blank");
+      }
+      function NasaTab() {
+        window.open("https://durvacoder.xyz/nasa_folder/", "_blank");
+      }
+      function CalcTab() {
+        window.open("https://durvacoder.xyz/Calculator/", "_blank");
+      }
+      function SplashTab() {
+        window.open("https://durvacoder.xyz/splash_page/", "_blank");
+      }
+      function PaintTab() {
+        window.open("https://durvacoder.xyz/paint_clone/", "_blank");
+      }
+      function PongTab() {
+        window.open("https://durvacoder.xyz/pong_game/", "_blank");
+      }
+      function MathTab() {
+        window.open("http://durvacoder.xyz/math_sprint_game/", "_blank");
+      }
+      function AnimatedTab() {
+        window.open("http://durvacoder.xyz/animated_template/", "_blank");
+      }
+      function BookTab() {
+        window.open("http://durvacoder.xyz/book_keeper/", "_blank");
+      }
+    </script>
+  </body>
 </html>
